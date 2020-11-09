@@ -34,15 +34,35 @@
   let s:base05 = ['#c0c5ce', '251']
   let s:base06 = ['#cdd3de', '252']
   let s:base07 = ['#d8dee9', '253']
-  let s:red    = ['#ec5f67', '203']
-  let s:orange = ['#f99157', '209']
+  " Make red more of a magenta
+  let s:red    = ['#c29fc4', '203']
+  "let s:red    = ['#ec5f67', '203']
+  " Soften orange a bit
+  "let s:orange = ['#f99157', '209']
+  let s:orange = ['#f7bc7c', '209']
   let s:yellow = ['#fac863', '221']
-  let s:green  = ['#99c794', '114']
-  let s:cyan   = ['#62b3b2', '73']
-  let s:blue   = ['#6699cc', '68']
+  " Switch green for a pale sky blue
+  let s:green  = ['#d1faff', '114']
+  "let s:green  = ['#99c794', '114']
+  " Swap cyan and blue and also
+  " make cyan (now called blue) brighter
+  " and then make cyan paler
+  let s:blue   = ['#9bbdb2', '73']
+  "let s:blue   = ['#40debe', '73']
+  let s:cyan   = ['#6699cc', '68']
+  "let s:cyan   = ['#62b3b2', '73']
+  "let s:blue   = ['#6699cc', '68']
   let s:purple = ['#c594c5', '176']
   let s:brown  = ['#ab7967', '137']
-  let s:white  = ['#ffffff', '15']
+  " Make white not white at all,
+  " more like a light salmon
+  "let s:white  = ['#f77c84', '15']
+  " Switch "green" and "white"
+  let s:white  = ['#f77c84', '15']
+  "let s:temp = s:white
+  "let s:white = s:green
+  "let s:green = s:temp
+  "let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
 
 " }}}
